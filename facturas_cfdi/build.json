@@ -1,0 +1,4 @@
+{
+  "css/facturas_cfdi.css": ["public/css/facturas_cfdi.css"],
+  "js/facturas_cfdi.js": ["public/js/facturas_cfdi.js"]
+}
