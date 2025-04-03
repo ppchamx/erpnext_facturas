@@ -1,0 +1,23 @@
+{
+    "Invoice": {
+        "charts": [],
+        "shortcuts": [
+            {
+                "label": "Import XML",
+                "method": "facturas_cfdi.xml_import.import_xml",
+                "type": "Action"
+            },
+            {
+                "label": "View Received Invoices",
+                "link": "List/Invoice?invoice_type=Compra",
+                "type": "Link"
+            },
+            {
+                "label": "View Issued Invoices",
+                "link": "List/Invoice?invoice_type=Venta",
+                "type": "Link"
+            }
+        ],
+        "cards": []
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "doctype": "DocType",
+    "name": "Concept",
+    "module": "Facturas CFDI",
+    "fields": [
+        {
+            "fieldname": "parent_invoice",
+            "fieldtype": "Link",
+            "options": "Invoice",
+            "label": "Parent Invoice"
+        },
+        {
+            "fieldname": "descripcion",
+            "fieldtype": "Data",
+            "label": "Descripcion"
+        },
+        {
+            "fieldname": "cantidad",
+            "fieldtype": "Float",
+            "label": "Cantidad"
+        },
+        {
+            "fieldname": "valor_unitario",
+            "fieldtype": "Currency",
+            "label": "Valor Unitario"
+        },
+        {
+            "fieldname": "importe",
+            "fieldtype": "Currency",
+            "label": "Importe"
+        }
+    ]
+}

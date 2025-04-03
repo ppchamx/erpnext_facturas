@@ -1,0 +1,58 @@
+{
+    "doctype": "DocType",
+    "name": "Invoice",
+    "module": "Facturas CFDI",
+    "fields": [
+        {
+            "fieldname": "invoice_type",
+            "fieldtype": "Select",
+            "options": "Compra\nVenta",
+            "label": "Invoice Type"
+        },
+        {
+            "fieldname": "serie",
+            "fieldtype": "Data",
+            "label": "Serie"
+        },
+        {
+            "fieldname": "folio",
+            "fieldtype": "Data",
+            "label": "Folio"
+        },
+        {
+            "fieldname": "fecha",
+            "fieldtype": "Datetime",
+            "label": "Fecha"
+        },
+        {
+            "fieldname": "subtotal",
+            "fieldtype": "Currency",
+            "label": "SubTotal"
+        },
+        {
+            "fieldname": "total",
+            "fieldtype": "Currency",
+            "label": "Total"
+        },
+        {
+            "fieldname": "moneda",
+            "fieldtype": "Data",
+            "label": "Moneda"
+        },
+        {
+            "fieldname": "tipo_de_comprobante",
+            "fieldtype": "Data",
+            "label": "Tipo de Comprobante"
+        },
+        {
+            "fieldname": "metodo_pago",
+            "fieldtype": "Data",
+            "label": "Metodo de Pago"
+        },
+        {
+            "fieldname": "lugar_expedicion",
+            "fieldtype": "Data",
+            "label": "Lugar de Expedicion"
+        }
+    ]
+}

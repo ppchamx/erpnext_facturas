@@ -1,0 +1,33 @@
+{
+    "doctype": "DocType",
+    "name": "Tax",
+    "module": "Facturas CFDI",
+    "fields": [
+        {
+            "fieldname": "parent_invoice",
+            "fieldtype": "Link",
+            "options": "Invoice",
+            "label": "Parent Invoice"
+        },
+        {
+            "fieldname": "impuesto",
+            "fieldtype": "Data",
+            "label": "Impuesto"
+        },
+        {
+            "fieldname": "tipo_factor",
+            "fieldtype": "Data",
+            "label": "Tipo Factor"
+        },
+        {
+            "fieldname": "tasa_o_cuota",
+            "fieldtype": "Float",
+            "label": "Tasa o Cuota"
+        },
+        {
+            "fieldname": "importe",
+            "fieldtype": "Currency",
+            "label": "Importe"
+        }
+    ]
+}
